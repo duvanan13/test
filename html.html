@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Interactive Calendar</title>
+  <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+  <div class="calendar">
+    <div class="header">
+      <button class="prev-btn" onclick="previousMonth()">&lt;</button>
+      <h1 id="month-year"></h1>
+      <button class="next-btn" onclick="nextMonth()">&gt;</button>
+    </div>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Sun</th>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thu</th>
+          <th>Fri</th>
+          <th>Sat</th>
+        </tr>
+      </thead>
+      <tbody id="calendar-body">
+      </tbody>
+    </table>
+  </div>
+
+  <script src="java.js"></script>
+</body>
+</html>
